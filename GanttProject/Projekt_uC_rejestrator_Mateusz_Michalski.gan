@@ -4,7 +4,7 @@
         <field id="tpd3" name="Nazwa zadania" width="219" order="0"/>
         <field id="tpd4" name="Data rozpoczęcia" width="95" order="1"/>
         <field id="tpd5" name="Data zakończenia" width="94" order="2"/>
-        <timeline><![CDATA[114,11,26]]></timeline>
+        <timeline><![CDATA[11,26,114]]></timeline>
         <option id="color.recent"><![CDATA[#99ff33 #99ff00 #cccc00 #ff0000 #33ff00 #00ff00 #ffff00]]></option>
     </view>
     <view id="resource-table">
