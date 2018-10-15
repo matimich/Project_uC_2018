@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projekt_uC_rejestrator_Mateusz_Michalski" company="PRz" webLink="http://" view-date="2018-09-30" view-index="0" gantt-divider-location="412" resource-divider-location="300" version="2.8.9" locale="pl">
+    <description><![CDATA[Projekt rejetratora trasy realizowany na przedmiocie "Mikrokontrolery". ]]></description>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nazwa zadania" width="219" order="0"/>
+        <field id="tpd4" name="Data rozpoczęcia" width="95" order="1"/>
+        <field id="tpd5" name="Data zakończenia" width="94" order="2"/>
+        <timeline><![CDATA[114,11,26]]></timeline>
+        <option id="color.recent"><![CDATA[#99ff33 #99ff00 #cccc00 #ff0000 #33ff00 #00ff00 #ffff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Osoba" width="210" order="0"/>
+        <field id="1" name="Domyślna rola" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="11" name="Projet wstępny" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-10-02" duration="15" complete="100" thirdDate="2018-10-01" thirdDate-constraint="0" priority="4" webLink="https%3A%2F%2Fgithub.com%2Fmatimich%2FProject_uC_2018" expand="true">
+            <notes><![CDATA[Pierwsza część projektu obejmująca następujące elementy:
+-wybór tematu projektu
+-definicja założeń 
+-przegląd istniejących rozwiązań 
+
+Czas realizacji: 02.10.2018-16.10.2018]]></notes>
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+            <task id="15" name="Wybór tematu projektu" color="#00ff00" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2018-10-02" duration="8" complete="100" thirdDate="2018-10-02" thirdDate-constraint="1" priority="2" webLink="https%3A%2F%2Fgithub.com%2Fmatimich%2FProject_uC_2018" expand="true">
+                <notes><![CDATA[Temat projektu:
+
+_____ system rejestracji pozycji_____]]></notes>
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="Definicja założeń" color="#00ff00" meeting="false" start="2018-10-10" duration="7" complete="100" thirdDate="2018-09-27" thirdDate-constraint="0" priority="2" webLink="https%3A%2F%2Fgithub.com%2Fmatimich%2FProject_uC_2018" expand="true">
+                <notes><![CDATA[Założenia:
+-pozycja pobierana z  modułu GPS,
+-przetwarzanie danych GPS w postaci ramki danych NMEA,
+-dane z GPS  zapisywane na kartę pamięci,
+-system wykorzystujący moduł GSM,
+-określenie pozycji rejestratora poprzez wysłanie zapytania do modułu GSM,
+-możliwość wprowadzenia do kodu programy strefy, której opuszczenie spowoduje wysłanie komunikatu alarmowego na wybrany numer telefonu,
+-programowe zabezpieczenie przed niechcianą zmiana konfiguracji kodu,
+-urządzenie pracujące na zestawie uruchomieniowym  Discovery - STM32F411EDISCOVERY,
+-w przypadku szybszego zrealizowania kodu programy wykonanie płytki PCB dla mikrokontrolera STM32F411,]]></notes>
+            </task>
+            <task id="43" name="Przegląd istniejących rozwiązań" color="#33ff00" meeting="false" start="2018-10-10" duration="7" complete="100" thirdDate="2018-10-03" thirdDate-constraint="0" webLink="https%3A%2F%2Fgithub.com%2Fmatimich%2FProject_uC_2018" expand="true">
+                <notes><![CDATA[Koncepcja urządzenia oparta jest na pierwotnej wersji rejestratora.
+
+Schemat pierwotnej wersji urządzenia:
+
+https://github.com/matimich/A-route-registration-system-for-UAV-based-on-AVR-microcontrollers-beta-version/blob/master/scheme.png
+
+W urządzeniu zostały zastosowane trzy mikrokontrolery ATmega32 oraz interfejsy komunikacyjne TTL UART, SPI, I2C, CAN . Ilość użytych interfejsów oraz liczba mikrokontrolerów znacznie przekracza wymaganą. Zostały one wykorzystane, ponieważ praca miała na celu elementy dydaktyczne i była eksperymentalną wersją rejestratora.
+]]></notes>
+            </task>
+        </task>
+        <task id="26" name="Projekt koncepcyjny" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-10-17" duration="2" complete="50" thirdDate="2018-09-27" thirdDate-constraint="0" priority="2" expand="true">
+            <notes><![CDATA[Druga część projektu obejmująca następujące elementy:
+-schemat urządzenia
+-dobór elementów 
+
+Czas realizacji: 17.10.2018-23.10.2018]]></notes>
+            <task id="95" name="Dobór elementów" color="#99ff00" meeting="false" start="2018-10-17" duration="2" complete="50" thirdDate="2018-09-30" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Elementy wykorzystane w projekcie:
+
+Moduły:
+-Discovery - STM32F411EDISCOVERY,
+-moduł GPS NEO-7M-C,
+-czytnik kart pamięci microSD firmy Pololu,
+-moduł GSM i GPRS DFrobot Gravity UART A6
+
+Komponenty:
+]]></notes>
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="80" name="Schemat" color="#99ff33" meeting="false" start="2018-10-17" duration="2" complete="50" thirdDate="2018-09-30" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Schemat blokowy:
+
+https://github.com/matimich/Project_uC_2018/tree/master/Schematy]]></notes>
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="114" name="Kod programu" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-10-17" duration="92" complete="0" thirdDate="2018-09-30" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="121" name="Zapoznane się z architekturą" color="#ff0000" meeting="false" start="2018-10-17" duration="7" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="118" name="Tworzenie kodu" color="#ff0000" meeting="false" start="2018-10-19" duration="90" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="1" name="Mateusz Michalski" function="Default:1" contacts="matimich@vp.pl" phone="+48 664 720 178"/>
+    </resources>
+    <allocations>
+        <allocation task-id="15" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="95" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
