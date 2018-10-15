@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projekt_uC_rejestrator_Mateusz_Michalski" company="PRz" webLink="http://" view-date="2018-09-30" view-index="0" gantt-divider-location="412" resource-divider-location="300" version="2.8.9" locale="pl">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projekt_uC_rejestrator_Mateusz_Michalski" company="PRz" webLink="http://" view-date="2018-10-09" view-index="0" gantt-divider-location="412" resource-divider-location="300" version="2.8.9" locale="pl">
     <description><![CDATA[Projekt rejetratora trasy realizowany na przedmiocie "Mikrokontrolery". ]]></description>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Nazwa zadania" width="219" order="0"/>
         <field id="tpd4" name="Data rozpoczęcia" width="95" order="1"/>
         <field id="tpd5" name="Data zakończenia" width="94" order="2"/>
-        <timeline><![CDATA[11,26,114]]></timeline>
+        <timeline><![CDATA[114,11,26]]></timeline>
         <option id="color.recent"><![CDATA[#99ff33 #99ff00 #cccc00 #ff0000 #33ff00 #00ff00 #ffff00]]></option>
     </view>
     <view id="resource-table">
@@ -79,8 +79,10 @@ W urządzeniu zostały zastosowane trzy mikrokontrolery ATmega32 oraz interfejsy
 -dobór elementów 
 
 Czas realizacji: 17.10.2018-23.10.2018]]></notes>
-            <task id="95" name="Dobór elementów" color="#99ff00" meeting="false" start="2018-10-17" duration="2" complete="50" thirdDate="2018-09-30" thirdDate-constraint="0" expand="true">
+            <task id="95" name="Dobór elementów" color="#99ff00" meeting="false" start="2018-10-17" duration="2" complete="50" thirdDate="2018-09-30" thirdDate-constraint="0" webLink="https%3A%2F%2Fgithub.com%2Fmatimich%2FProject_uC_2018%2Ftree%2Fmaster%2FSpecyfikacja_dobranych_element%25C3%25B3w" expand="true">
                 <notes><![CDATA[Elementy wykorzystane w projekcie:
+
+Dokładny opis elementów znajduje się pod adresem WEB.
 
 Moduły:
 -Discovery - STM32F411EDISCOVERY,
@@ -92,10 +94,9 @@ Komponenty:
 ]]></notes>
                 <depend id="118" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="80" name="Schemat" color="#99ff33" meeting="false" start="2018-10-17" duration="2" complete="50" thirdDate="2018-09-30" thirdDate-constraint="0" expand="true">
-                <notes><![CDATA[Schemat blokowy:
-
-https://github.com/matimich/Project_uC_2018/tree/master/Schematy]]></notes>
+            <task id="80" name="Schemat" color="#99ff33" meeting="false" start="2018-10-17" duration="2" complete="50" thirdDate="2018-09-30" thirdDate-constraint="0" webLink="https%3A%2F%2Fgithub.com%2Fmatimich%2FProject_uC_2018%2Ftree%2Fmaster%2FSchematy" expand="true">
+                <notes><![CDATA[Schematy pod adresem WEB.
+]]></notes>
                 <depend id="118" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
