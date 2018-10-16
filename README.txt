@@ -10,12 +10,14 @@ The device will be using following modules:
 
 The project is prepared for a "Microcontrollers" subject.
 
+
+
 Celem projektu jest zaprojektowanie i wykonanie rejestratora pozycji opartego na mikrokontrolerze STM32F411VET6.
 Urządzenie będzie wykorzystywać następujące moduły:
 
--STM32F411EDISCOVERY board,
--GPS module,
--microSD card driver,
--GSM module.
+- zestaw uruchomieniowy STM32F411EDISCOVERY,
+- moduł GPS,
+-czytnik kart pamięci microSD,
+-moduł GSM.
 
-Projekt jest przygotowywany na przedmiot mikrokontrolery. 
+Projekt jest przygotowywany na przedmiot mikrokontrolery.
