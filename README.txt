@@ -18,4 +18,4 @@ Urządzenie będzie wykorzystywać następujące moduły:
 -microSD card driver,
 -GSM module.
 
-Projekt jest przygotowyway na przedmiot mikrokontrolery. 
+Projekt jest przygotowywany na przedmiot mikrokontrolery. 
