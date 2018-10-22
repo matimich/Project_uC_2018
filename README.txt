@@ -5,7 +5,7 @@ The device will be using following modules:
 
 -STM32F411EDISCOVERY board,
 -GPS module,
--microSD card driver,
+-microSD card module,
 -GSM module.
 
 The project is prepared for a "Microcontrollers" subject.
