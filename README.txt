@@ -21,3 +21,23 @@ Urządzenie będzie wykorzystywać następujące moduły:
 -moduł GSM.
 
 Projekt jest przygotowywany na przedmiot mikrokontrolery.
+
+W repozytorium można znaleść następujące elementy:
+-Definicje założeń:
+Definicja_założeń.pdf
+
+-Diagram Gantta(GanttProject):
+Projekt_uC_rejestrator_Mateusz_Michalski.gan
+
+-Przegląd_istniejących_rozwiązań:
+Przegląd_istniejących_rozwiązań.pdf
+
+-Schematy_projektu:
+schematblokowy.pdf
+
+-Specyfikacja_dobranych_elementów:
+Czytnik_kart_microSD.pdf
+Kosztorys.pdf 	
+Moduł_GPS.pdf 		
+Moduł_GSM.pdf 
+Zasilanie.pdf
