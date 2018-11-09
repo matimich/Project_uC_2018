@@ -22,7 +22,7 @@ Urządzenie będzie wykorzystywać następujące moduły:
 
 Projekt jest przygotowywany na przedmiot mikrokontrolery.
 
-W repozytorium można znaleść następujące elementy:
+W repozytorium można znaleźć następujące elementy:
 -Definicje założeń:
 Definicja_założeń.pdf
 
