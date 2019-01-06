@@ -38,10 +38,6 @@ Przegląd_istniejących_rozwiązań.pdf
 -Specyfikacja_dobranych_elementów:
 Kosztorys.pdf 	
 Czytnik_kart_microSD.pdf
-
-
--Kod_programu
-Opis_działania_kodu_programu
 Moduł_GPS.pdf 		
 Moduł_GSM.pdf 
 Zasilanie.pdf
@@ -55,3 +51,7 @@ Schemat_płytki_PCB.pdf
 PCB.pdf
 Schemat_Eagle.sch
 PCB_Eagle.brd
+
+
+-Kod_programu
+Opis_działania_kodu_programu
