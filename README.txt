@@ -51,3 +51,7 @@ Schemat_płytki_PCB.pdf
 PCB.pdf
 Schemat_Eagle.sch
 PCB_Eagle.brd
+
+
+-Kod_programu
+Opis_działania_kodu_programu
