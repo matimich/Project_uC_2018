@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projekt_uC_rejestrator_Mateusz_Michalski" company="PRz" webLink="http://" view-date="2018-10-01" view-index="0" gantt-divider-location="388" resource-divider-location="300" version="2.8.9" locale="pl">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projekt_uC_rejestrator_Mateusz_Michalski" company="PRz" webLink="http://" view-date="2018-12-10" view-index="0" gantt-divider-location="388" resource-divider-location="300" version="2.8.9" locale="pl">
     <description><![CDATA[Projekt rejetratora trasy realizowany na przedmiocie "Mikrokontrolery". ]]></description>
     <view zooming-state="default:4" id="gantt-chart">
         <field id="tpd3" name="Nazwa zadania" width="206" order="0"/>
         <field id="tpd4" name="Data rozpoczęcia" width="89" order="1"/>
         <field id="tpd5" name="Data zakończenia" width="89" order="2"/>
-        <timeline><![CDATA[11,26,118,114]]></timeline>
-        <option id="color.recent"><![CDATA[#66ff00 #33ff00 #ccff00 #f4f4f4 #ff0000 #ffff00 #99ff33 #99ff00 #cccc00 #00ff00]]></option>
+        <timeline><![CDATA[26,118,11,114]]></timeline>
+        <option id="color.recent"><![CDATA[#ff9900 #66ff00 #33ff00 #ccff00 #f4f4f4 #ff0000 #ffff00 #99ff33 #99ff00 #cccc00]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Osoba" width="210" order="0"/>
@@ -110,19 +110,24 @@ Komponenty:
                 </task>
                 <task id="186" name="Zatwierdzenie projektu koncepcyjnego" color="#ff0000" meeting="true" start="2018-10-30" duration="0" complete="0" thirdDate="2018-10-16" thirdDate-constraint="0" expand="true">
                     <depend id="114" type="2" difference="0" hardness="Strong"/>
-                    <depend id="118" type="2" difference="0" hardness="Strong"/>
                     <depend id="141" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
         </task>
-        <task id="114" name="Projekt konstrukcyjny" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-10-30" duration="49" complete="0" thirdDate="2018-09-30" thirdDate-constraint="0" priority="4" expand="true">
-            <task id="118" name="Tworzenie kodu" color="#ff0000" meeting="false" start="2018-10-30" duration="49" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" priority="2" expand="true"/>
-            <task id="141" name="Tworzenie prototypu" color="#ff0000" meeting="false" start="2018-10-30" duration="49" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
-            <task id="233" name="Zatwierdzenie projetu konstrukcyjnego" color="#f4f4f4" meeting="true" start="2018-12-18" duration="0" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true">
-                <depend id="133" type="2" difference="0" hardness="Strong"/>
+        <task id="114" name="Projekt konstrukcyjny" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-10-30" duration="84" complete="63" thirdDate="2018-09-30" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="141" name="Tworzenie plytki PCB" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-10-30" duration="21" complete="100" thirdDate="2018-10-19" thirdDate-constraint="0" expand="false">
+                <depend id="255" type="2" difference="0" hardness="Strong"/>
+                <task id="246" name="Schemat _PCB" color="#66ff00" meeting="false" start="2018-10-30" duration="14" complete="100" thirdDate="2018-10-30" thirdDate-constraint="0" expand="true">
+                    <depend id="248" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="248" name="Projekt_PCB" color="#66ff00" meeting="false" start="2018-11-13" duration="7" complete="100" thirdDate="2018-10-30" thirdDate-constraint="0" expand="true"/>
             </task>
+            <task id="255" name="Ostateczny kosztorys" color="#66ff00" meeting="false" start="2018-11-20" duration="8" complete="100" thirdDate="2018-10-30" thirdDate-constraint="0" expand="true">
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="118" name="Tworzenie kodu" color="#ff9900" meeting="false" start="2018-11-28" duration="55" complete="45" thirdDate="2018-10-19" thirdDate-constraint="0" priority="2" expand="true"/>
         </task>
-        <task id="133" name="Weryfikacja projektu" color="#ff0000" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2018-12-18" duration="7" complete="0" thirdDate="2018-10-07" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="133" name="Weryfikacja projektu- zatwierdzenie projektu konstrukcyjnego" color="#ff0000" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2019-01-22" duration="7" complete="0" thirdDate="2018-10-07" thirdDate-constraint="0" priority="4" expand="true"/>
     </tasks>
     <resources>
         <resource id="1" name="Mateusz Michalski" function="Default:1" contacts="matimich@vp.pl" phone="+48 664 720 178"/>
@@ -135,6 +140,7 @@ Komponenty:
         <allocation task-id="95" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="80" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="114" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="246" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
