@@ -26,18 +26,28 @@ W repozytorium można znaleźć następujące elementy:
 -Definicje założeń:
 Definicja_założeń.pdf
 
+
 -Diagram Gantta(GanttProject):
 Projekt_uC_rejestrator_Mateusz_Michalski.gan
+
 
 -Przegląd_istniejących_rozwiązań:
 Przegląd_istniejących_rozwiązań.pdf
 
+
 -Schematy_projektu:
 schematblokowy.pdf
+Schemat_płytki_PCB.pdf
+PCB.pdf
+Schemat_Eagle.sch
+PCB_Eagle.brd
+
 
 -Specyfikacja_dobranych_elementów:
-Czytnik_kart_microSD.pdf
 Kosztorys.pdf 	
+Czytnik_kart_microSD.pdf
 Moduł_GPS.pdf 		
 Moduł_GSM.pdf 
 Zasilanie.pdf
+Zestaw_uruchomieniowy.pdf
+Dodatkowe_elementy.pdf
