@@ -35,14 +35,6 @@ Projekt_uC_rejestrator_Mateusz_Michalski.gan
 Przegląd_istniejących_rozwiązań.pdf
 
 
--Schematy_projektu:
-schematblokowy.pdf
-Schemat_płytki_PCB.pdf
-PCB.pdf
-Schemat_Eagle.sch
-PCB_Eagle.brd
-
-
 -Specyfikacja_dobranych_elementów:
 Kosztorys.pdf 	
 Czytnik_kart_microSD.pdf
@@ -51,3 +43,11 @@ Moduł_GSM.pdf
 Zasilanie.pdf
 Zestaw_uruchomieniowy.pdf
 Dodatkowe_elementy.pdf
+
+
+-Schematy_projektu:
+schematblokowy.pdf
+Schemat_płytki_PCB.pdf
+PCB.pdf
+Schemat_Eagle.sch
+PCB_Eagle.brd
