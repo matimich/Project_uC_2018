@@ -55,7 +55,7 @@ PCB_Eagle.brd
 
 -Kod_programu
 kodu_programu-wstęp.pdf
-Mikrokontrolery_projekt - kod programu
+Mikrokontrolery_projekt – plik zawierający cały kod programu
 
 
 -Weryfikacja i wnioski
